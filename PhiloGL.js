@@ -3558,7 +3558,7 @@
 					switch (type) {
 					case 'x,y':
 						positions[i3 + 0] = c1len * u - c1len * 0.5;
-						positions[i3 + 1] = c2len * v - c2len * 0.5;
+						positions[i3 + 1] =  c2len * v - c2len * 0.5;
 						positions[i3 + 2] = offset;
 
 						normals[i3 + 0] = 0;
